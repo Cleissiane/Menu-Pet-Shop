@@ -92,7 +92,7 @@ int main()
         scanf("%s", &nomeP);
 
         typing_effect("\nCadastro concluido!\n\n");
-        printf("Deseja agendar? Tecle:\n\n [1] pra SIM ou qualquer letra para NÃO\n");
+        printf(" Deseja agendar? Tecle:\n\n [1] pra SIM ou qualquer letra para NÃO\n");
         scanf("%d", &agendar);
 
         if (agendar == 1){
@@ -170,7 +170,7 @@ int main()
         typing_effect("\nAlém do banho e aparo, inclui: \n\n");
         typing_effect(" -Limpeza de ouvidos;\n -corte e lixamento de unhas;\n -Hidratação;\n\n (Funcionamos das 08:00 às 17:30)\n\n");
 
-        printf("Deseja agendar? Tecle:\n\n [1] pra SIM ou qualquer letra para NÃO\n\n");
+        printf(" Deseja agendar? Tecle:\n\n [1] pra SIM ou qualquer letra para NÃO\n\n");
         scanf("%d", &agendar);
 
         if (agendar == 1){
@@ -242,13 +242,13 @@ int main()
 
     case 3:
         printf("\n\t\t\t*Ração*\n\n");
-        printf("Racões disponíveis: \n\n");
+        typing_effect("\t\t  Racões disponíveis: \n\n");
 
-        typing_effect("\t\t\t Gato:\n\n [1] Sachê whiskas filhotes frango - 85g --------- R$ 3,29\n [2] Sachê Premier Gourmet Atum - 70g ------------ R$ 8,90\n");
-        typing_effect(" [3] Sachê Cat Chow sabor carne - 85g ------------ R$ 3,29\n [4] Golden sabor frango - 3kg ------------------ R$ 79,90\n");
-        typing_effect(" [5] Royal canin veterinary diet - 1,5kg ------- R$ 209,90\n\n");
-        typing_effect("\t\t\tCachorro:\n\n [6] Sachê Dog Chow sabor frango - 100g ---------- R$ 2,69\n [7] Golden fórmula carne e arroz - 1kg --------- R$ 21,95\n");
-        typing_effect(" [8] Max Light - 3kg ---------------------------- R$ 54,95\n [9] Special Dog carne filhotes - 10kg --------- R$ 122,90\n\n");
+        typing_effect("\t\t\t Gato:\n\n [1] Sachê whiskas filhotes frango - 85g --------- R$   3,29\n [2] Sachê Premier Gourmet Atum - 70g ------------ R$   8,90\n");
+        typing_effect(" [3] Sachê Cat Chow sabor carne - 85g ------------ R$   3,29\n [4] Golden sabor frango - 3kg ------------------- R$  79,90\n");
+        typing_effect(" [5] Royal canin veterinary diet - 1,5kg --------- R$ 209,90\n\n");
+        typing_effect("\t\t\tCachorro:\n\n [6] Sachê Dog Chow sabor frango - 100g ---------- R$   2,69\n [7] Golden fórmula carne e arroz - 1kg ---------- R$  21,95\n");
+        typing_effect(" [8] Max Light - 3kg ----------------------------- R$  54,95\n [9] Special Dog carne filhotes - 10kg ----------- R$ 122,90\n\n");
 
         printf("Digite o número relativo a opção do seu interesse: ");
         scanf("%d", &racao);
@@ -265,7 +265,7 @@ int main()
         printf("\n\t\t*Brinquedos*\n\n");
 
         printf(" [1] Osso flexivel mordedor -------- R$ 15,95\n [2] Bola vinil -------------------- R$ 17,95\n [3] Pelúcia macaco azul ----------- R$ 19,95\n");
-        printf(" [4] Bolinha ping pong colorida ----- R$ 6,85\n [5] Balance Cat ------------------- R$ 27,95\n [6] Arranhador Cat relax ---------- R$ 36,95\n");
+        printf(" [4] Bolinha ping pong colorida ---- R$  6,85\n [5] Balance Cat ------------------- R$ 27,95\n [6] Arranhador Cat relax ---------- R$ 36,95\n");
         printf(" [7] Pelúcia argola ---------------- R$ 16,95\n [8] Bola espinho jambo ------------ R$ 17,49\n\n");
 
         printf("Escolha o brinquedo de acordo a númeração:");
@@ -283,9 +283,9 @@ int main()
     case 5:
         printf("\n\t\t*Acessórios complementares*\n\n");
 
-        printf(" [1] Guia de couro forrado --------------------- R$ 21,90\n [2] Coleira Hello preto ----------------------- R$ 33,95\n [3] Caixa transporte black Nº 1 --------------- R$ 29,95\n");
-        printf(" [4] Peitoral Daytona Ferplast preto ----------- R$ 89,90\n [5] Cama Cat Confort ------------------------- R$ 159,90\n [6] mochila bolsa pet para transporte -------- R$ 169,00\n");
-        printf(" {7] Casinha plástica iglu preta -------------- R$ 110,90\n\n");
+        printf(" [1] Guia de couro forrado --------------------- R$  21,90\n [2] Coleira Hello preto ----------------------- R$  33,95\n [3] Caixa transporte black Nº 1 --------------- R$  29,95\n");
+        printf(" [4] Peitoral Daytona Ferplast preto ----------- R$  89,90\n [5] Cama Cat Confort -------------------------- R$ 159,90\n [6] mochila bolsa pet para transporte --------- R$ 169,00\n");
+        printf(" {7] Casinha plástica iglu preta --------------- R$ 110,90\n\n");
 
         printf("Escolha o acessório de acordo a númeração:");
         scanf("%d", &acessorio);
@@ -301,7 +301,7 @@ int main()
     case 6:
         printf("\n\t\t\t*Medicamentos*\n\n");
 
-        printf(" [1] Vermifugo para cachorros - 4 comprimidos --------- R$ 12,24\n [2] Biodex - 20 comprimidos -------------------------- R$ 15,44\n [3] Marcepton - 20ml -------------------------------- R$ 18, 32\n ");
+        printf(" [1] Vermifugo para cachorros - 4 comprimidos --------- R$ 12,24\n [2] Biodex - 20 comprimidos -------------------------- R$ 15,44\n [3] Marcepton - 20ml --------------------------------- R$ 18,32\n ");
         printf("[4] Helfline plus para gatos - 2 comprimidos --------- R$ 17,91\n [5] vermifugos para gatos - 1 bisnaga ---------------- R$ 69,91\n\n");
 
         printf("Escolha o medicamento de acordo a númeração:\n\n");
