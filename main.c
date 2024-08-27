@@ -242,7 +242,7 @@ int main()
 
     case 3:
         printf("\n\t\t\t*Ração*\n\n");
-        printf("Racões disponivéis: \n\n");
+        printf("Racões disponíveis: \n\n");
 
         typing_effect("\t\t\t Gato:\n\n [1] Sachê whiskas filhotes frango - 85g --------- R$ 3,29\n [2] Sachê Premier Gourmet Atum - 70g ------------ R$ 8,90\n");
         typing_effect(" [3] Sachê Cat Chow sabor carne - 85g ------------ R$ 3,29\n [4] Golden sabor frango - 3kg ------------------ R$ 79,90\n");
@@ -255,6 +255,7 @@ int main()
 
         if (racao>9 || racao==0){
             typing_effect("\n(OPÇÃO INVÁLIDA)\n");
+            return 0;
         }else{
             printf("\nSeu pedido será preparado!\n\n");
         }
@@ -273,6 +274,7 @@ int main()
 
         if (brinquedos>8 || brinquedos==0){
             typing_effect("\n(OPÇÃO INVÁLIDA)\n");
+            return 0;
         }else{
             printf("\nSeu pedido será preparado!\n\n");
         }
@@ -290,6 +292,7 @@ int main()
 
         if (acessorio>7 || acessorio==0){
             typing_effect("\n(OPÇÃO INVÁLIDA)\n");
+            return 0;
         }else{
             printf("\nSeu pedido será preparado!\n\n");
         }
@@ -306,6 +309,7 @@ int main()
 
         if (medicamento>5 || medicamento==0){
             typing_effect("\n(OPÇÃO INVÁLIDA)\n");
+            return 0;
         }else{
             printf("\nSeu pedido será preparado!\n\n");
         }
